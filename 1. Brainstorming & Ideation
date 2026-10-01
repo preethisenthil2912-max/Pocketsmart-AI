@@ -1,0 +1,30 @@
+# Phase 1 — Brainstorming & Ideation
+
+## Project
+PocketSmart AI — Your Smart Budget & Recommendation Assistant
+
+## Problem Statement
+Users often struggle to choose products/services within a fixed budget because options are spread across many platforms and categories.
+
+## Proposed Solution
+A GenAI-powered assistant that accepts budget, category, preferences and context, then generates practical budget allocations and recommendation ideas.
+
+## Target Users
+- Students and young professionals
+- Families planning home purchases
+- People organizing small events
+- Users shopping for occasion-based jewelry
+
+## Core Scenarios
+
+### Scenario 1 — Home Interior Planning
+Input: total budget, room type and style.
+Output: category-wise allocation for furniture, lighting, decor, storage and contingency.
+
+### Scenario 2 — AI-Based Party Budget Planning
+Input: total budget, guest count, event type and venue details.
+Output: allocation for catering, decoration, entertainment, venue and contingency.
+
+### Scenario 3 — Jewelry Recommendations for Occasions
+Input: budget, occasion, style and optional outfit information.
+Output: jewelry category allocation and platform suggestions.
