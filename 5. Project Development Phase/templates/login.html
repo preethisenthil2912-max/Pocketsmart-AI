@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Login - PocketSmart AI
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+
+</head>
+
+<body>
+
+<div class="auth-card">
+
+    <h1>
+        Login
+    </h1>
+
+    <p>
+        Access your PocketSmart dashboard.
+    </p>
+
+
+    {% if error %}
+
+    <div class="error">
+        {{ error }}
+    </div>
+
+    {% endif %}
+
+
+    <form
+        action="/login"
+        method="post"
+    >
+
+        <label>
+            Email
+        </label>
+
+        <input
+            type="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+        >
+
+
+        <label>
+            Password
+        </label>
+
+        <input
+            type="password"
+            name="password"
+            required
+            placeholder="Enter your password"
+        >
+
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+
+    <p class="center">
+
+        New user?
+
+        <a href="/register">
+            Create an account
+        </a>
+
+    </p>
+
+</div>
+
+</body>
+
+</html>
