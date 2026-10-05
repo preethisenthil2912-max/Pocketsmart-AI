@@ -6,10 +6,10 @@ PocketSmart AI: Your Smart Budget & Recommendation Assistant
 
 ## Team Members
 
-- Nithyashree N
-- Mohammed Shahil V
-- Laila J
-- Srividhya A
+- Preethi S
+- Niveditha
+- Govindaraj V
+- Kogila Y
 
 ## Introduction
 
