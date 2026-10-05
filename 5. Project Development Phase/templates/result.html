@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Budget Result - PocketSmart AI
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+
+</head>
+
+<body>
+
+<div class="nav">
+
+    <div class="brand">
+        PocketSmart AI
+    </div>
+
+    <div>
+
+        <a href="/dashboard">
+            Dashboard
+        </a>
+
+        <a href="/logout">
+            Logout
+        </a>
+
+    </div>
+
+</div>
+
+
+<main class="page">
+
+<section class="panel">
+
+    <h1>
+        Budget Analysis
+    </h1>
+
+    <p>
+        Your budget analysis has been generated successfully.
+    </p>
+
+
+    <div class="summary-grid">
+
+        <div>
+
+            <span>
+                Monthly Income
+            </span>
+
+            <strong>
+                ₹{{ "%.2f"|format(
+                    data["monthly_income"]
+                ) }}
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                Savings Goal
+            </span>
+
+            <strong>
+                ₹{{ "%.2f"|format(
+                    data["savings_goal"]
+                ) }}
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                Budget ID
+            </span>
+
+            <strong>
+                #{{ budget_id }}
+            </strong>
+
+        </div>
+
+    </div>
+
+
+    <div class="recommendation">
+
+        <pre>{{ recommendation }}</pre>
+
+    </div>
+
+
+    <div class="actions">
+
+        <a
+            class="button"
+            href="/dashboard"
+        >
+            Create Another Budget
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+</body>
+
+</html>
