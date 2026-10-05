@@ -1,6 +1,0 @@
-# PocketSmart-AI 
-
-
-
-
-
