@@ -6,7 +6,7 @@ PocketSmart AI: Your Smart Budget & Recommendation Assistant
 
 ## Team Members and Responsibilities
 
-### Nithyashree N
+### Preethi S
 
 Responsibilities:
 
@@ -15,7 +15,7 @@ Responsibilities:
 - Modular code structure
 - Startup and main function
 
-### Mohammed Shahil V
+### Niveditha
 
 Responsibilities:
 
@@ -24,7 +24,7 @@ Responsibilities:
 - FastAPI routes
 - HTML frontend interface
 
-### Laila J
+### Govindaraj V
 
 Responsibilities:
 
@@ -33,7 +33,7 @@ Responsibilities:
 - Modular architecture
 - Real-world budget testing
 
-### Srividhya A
+### Kogila Y
 
 Responsibilities:
 
